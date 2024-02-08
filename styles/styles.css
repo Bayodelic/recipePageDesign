@@ -1,0 +1,87 @@
+@font-face {
+    font-family: titulo;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F3E5D8;
+}
+
+strong{
+    color: #514846;
+}
+
+.titulo{
+    font-family: titulo;
+}
+
+.textStyles{
+    color: #6B6964;
+    font-family: texto;
+}
+
+h2{
+    color: #834630;
+}
+
+#container{
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    background-color: white;
+    border-radius: 4%;
+}
+
+img{
+    margin-top: 8%;
+    margin-left: 10%;
+    border-radius: 4%;
+    width: 80%;
+    height: 300px;
+}
+
+#introduction{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 25px;
+}
+
+#introduction h1{
+    font-size: 35px;
+    color: #2D2A29;
+    padding-bottom: 20px;
+}
+
+#preparation{
+    width: 70%;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 50px;
+    background-color: #FFF7FC;
+}
+
+#preparation h2{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: #852D51;
+}
+
+#preparation ul li{
+    text-align: start;
+    width: 80%;
+    margin-left: 30px;
+    padding: 10px;
+}
